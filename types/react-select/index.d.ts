@@ -341,6 +341,10 @@ export interface ReactSelectProps<TValue = OptionValues> extends React.Props<Rea
      */
     inputRenderer?: InputRendererHandler;
     /**
+      * custom input value
+      */
+    inputValue?: string;
+    /**
      * allows for synchronization of component id's on server and client.
      * @see https://github.com/JedWatson/react-select/pull/1105
      */
