@@ -20,6 +20,9 @@ import * as React from 'react';
 export default class ReactSelectClass<TValue = OptionValues> extends React.Component<ReactSelectProps<TValue>> {
     focus(): void;
     setValue(value: Option<TValue>): void;
+    isOpen(): boolean;
+    isFocused(): boolean;
+    numberOfVisibleOptions(): number;
 }
 // Other components
 export class Creatable<TValue = OptionValues> extends React.Component<ReactCreatableSelectProps<TValue>> { }
